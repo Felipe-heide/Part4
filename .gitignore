@@ -1,0 +1,14 @@
+# Ignora todos los archivos .log
+*.log
+
+# Ignora todos los archivos .env
+*.env
+
+# Ignora todos los archivos .rest
+*.rest
+
+# Ignora todos los archivos en la carpeta /temp
+/temp/*
+
+# Pero no ignores los archivos .log en la carpeta /temp/logs
+!/temp/logs/*.log
